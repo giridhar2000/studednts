@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insert">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="174dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/roll"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="96dp"
+        android:ems="10"
+        android:hint="Roll No"
+ />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="242dp"
+        android:ems="10"
+        android:hint="Date Of Birth"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/clas"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="313dp"
+        android:ems="10"
+        android:hint="Class / Section"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/teacher"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="388dp"
+        android:ems="10"
+        android:hint="Class Teacher"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="450dp"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="450dp"
+        android:text="delete" />
+
+    <TextView
+        android:id="@+id/na"
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:layout_x="32dp"
+        android:layout_y="5dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
